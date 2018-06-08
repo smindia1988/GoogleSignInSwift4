@@ -2,6 +2,9 @@
 Google SignIn with Block based structure, Swift 4 support
 
 ## Steps:
+
+- Install GoogleSignIn Using CocoaPods: https://developers.google.com/identity/sign-in/ios/start-integrating
+
 - Add single class SMGoogleSignIn+Block.swift into your project
 
 - Get an OAuth client ID
