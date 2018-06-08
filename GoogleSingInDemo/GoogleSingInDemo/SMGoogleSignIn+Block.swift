@@ -38,7 +38,7 @@ class SMGoogleSignIn: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
     
     func initalise(){
         // Initialize Google Sign-In
-        GIDSignIn.sharedInstance().clientID = "YOUR_CLIENT_ID"
+        GIDSignIn.sharedInstance().clientID = "PUT_YOUR_CLIENT_ID_HERE"
         GIDSignIn.sharedInstance().delegate = self
         GIDSignIn.sharedInstance().uiDelegate = self
     }
