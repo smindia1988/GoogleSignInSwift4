@@ -7,6 +7,8 @@ Google SignIn with Block based structure, Swift 4 support
 - Get an OAuth client ID
 https://developers.google.com/identity/sign-in/ios/start-integrating
 
+- Replace your Client ID into SMGoogleSignIn+Block.swift  > func initalise() 
+
 - Add a URL scheme to your project
 
     Google Sign-in requires a custom URL Scheme to be added to your project. To add the custom scheme:
