@@ -7,9 +7,9 @@ Google SignIn with Block based structure, Swift 4 support
 - Get an OAuth client ID
 https://developers.google.com/identity/sign-in/ios/start-integrating
 
-- Replace your Client ID into SMGoogleSignIn+Block.swift  > func initalise() 
+- Replace your CLIENT_ID into SMGoogleSignIn+Block.swift  > func initalise() 
 
-- Add a URL scheme to your project like this: 
+- Add a REVERSED_CLIENT_ID into URL scheme to your project like this: 
 
 https://developers.google.com/identity/sign-in/ios/images/xcode_infotab_url_type_values.png
 
