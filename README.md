@@ -59,7 +59,9 @@ https://developers.google.com/identity/sign-in/ios/start-integrating
 **Sign-Out:**
 
 @IBAction func didTapSignOut(_ sender: AnyObject) {
+
         SMGoogleSignIn.sharedInstance.signOut()
+        
     } 
     
 **Help Guide:** 
