@@ -2,9 +2,20 @@
 //  GoogleSignIn+Block.swift
 //  GoogleSingInDemo
 //
-//  Created by bviadmin on 06/06/18.
+//  Created by Sadnip Patel (SM) on 06/06/18.
 //  Copyright © 2018 BV. All rights reserved.
 //
+/*
+ Help Guide:
+ Google Sign-In Integration:
+ https://developers.google.com/identity/sign-in/ios/start?ver=swift
+ https://developers.google.com/identity/sign-in/ios/start-integrating
+ https://developers.google.com/identity/sign-in/ios/sign-in?ver=swift
+ 
+ Open URL Methods Error Fixes:
+ https://firebase.google.com/docs/auth/ios/google-signin
+*/
+
 
 import UIKit
 import GoogleSignIn
@@ -27,7 +38,7 @@ class SMGoogleSignIn: NSObject, GIDSignInDelegate, GIDSignInUIDelegate {
     
     func initalise(){
         // Initialize Google Sign-In
-        GIDSignIn.sharedInstance().clientID = "1065943075445-65pm4p5dta241isgkramnkdakcqbu3v6.apps.googleusercontent.com"
+        GIDSignIn.sharedInstance().clientID = "YOUR_CLIENT_ID"
         GIDSignIn.sharedInstance().delegate = self
         GIDSignIn.sharedInstance().uiDelegate = self
     }
